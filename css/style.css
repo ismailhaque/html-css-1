@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.sec1{
+    height: 600px;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/manhattan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.sec1 h1{
+    font-size: 80px;
+}
+.sec1 p{
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+.sec1 a{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
+.sec1 a:hover{
+    background:white;
+    color: black;
+}
+/***sec1 end***/
+
+.sec2{
+    padding: 50px 100px;
+    background: white;
+}
+.s2row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s2col{
+    display: flex;
+    flex-basis: 30.3%;
+}
+.sec2 h1{
+    font-size: 30px;
+    color: black;
+}
+.sec2 p{
+    font-size: 17px;
+    color: rgb(197, 176, 176);
+}
+.sec2 i{
+    font-size: 40px;
+    color: rgb(150, 0, 0);
+    padding-right: 20px;
+}
+
+.s2row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+/*sec2 end*/
+.sec3{
+    display: flex;
+    padding: 50px 100px;
+    background: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s3col1, .s3col2{
+    flex-basis: 48%;
+}
+.sec3 img{
+    width: 100%;
+}
+.sec3 ul i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(150, 0, 0);
+}
+.sec3 ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec3 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.sec3 h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.sec3 ul{
+    padding-bottom: 20px;
+}
+.sec3 a{
+        background: rgb(150, 0, 0);
+        font-size: 17px;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 30px;
+}
+/**sec3 end**/
+.sec4{
+    padding: 50px 100px;
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s4col{
+    text-align: center;
+    flex-basis: 30.3%;
+}
+.sec4 h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.sec4 p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(58, 54, 54);
+}
+.s4col i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+/**sec4 end**/
+.s5hp{
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 5px;
+}
+.s5hp h1{
+    font-size: 50px;
+    color: black;
+    text-transform:capitalize;
+}
+.s5hp p{
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+}
+.s5box{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.s5col img{
+    width: 60px;
+}
+.s5col h3{
+    font-size: 25px;
+}
+.s5col h6{
+    font-size: 20px;
+    color: rgb(150, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.s5col p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.s5col{
+    background-color: rgb(202, 202, 202);
+    padding: 20px 10px;
+    flex-basis: 30%;
+    border-right: 1px solid rgb(150, 0, 0);
+    border-bottom: 1px solid rgb(150, 0, 0);
+}
+/**sec5 end**/
+.sec6{
+    border-bottom: 10px solid rgb(150, 0, 0);
+    border-top: 10px solid rgb(150, 0, 0);
+}
+.s6hp{
+    text-align: center;
+    padding: 50px 100px;
+}
+.s6hp h1{
+    font-size: 50px;
+}
+.s6hp p{
+    font-size: 20px;
+}
+.s6icon{
+    width: 25%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.s6icon img{
+    width: 30%;
+}
+
+/******** sec6 end *******/
+
+.sec7{
+    background: rgb(255, 203, 196);
+    padding: 50px 100px;
+}
+.s7h{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.s7colam{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+.s7col{
+    flex-basis: 30.3%;
+}
+.s7col h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.s7col p{
+    text-align: center;
+    font-size: 20px;
+}
+.s7col i{
+    font-size: 40px;
+    color: rgb(150, 0, 0);
+}
+/**********sec7 end***********/
+
+.sec8{
+    background: rgb(255, 126, 21);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.sec8 i{ 
+    font-size: 25px;
+    color: rgb(150, 0, 0);
+}
+/********Project end********/
